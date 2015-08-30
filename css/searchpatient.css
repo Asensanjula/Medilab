@@ -1,0 +1,229 @@
+/*
+ *******
+ *******
+Header
+********
+*/
+
+.container_12{
+   padding-left:  100px;
+}
+
+
+header h1{
+	background: url(../img/logo.jpg) no-repeat;
+	width:300px;
+	height: 100px;
+	margin: 10px 10px 22px;
+	
+	
+	
+	float: left;
+	text-indent: -9999px;
+}
+
+header{
+	overflow: hidden;
+}
+
+.PR{
+   //background: yellow;
+   float: right;
+   margin-right: 160px;
+   margin-top: 26px;
+   font-family: candara;
+   
+}
+.PR h2{
+   font-size:45px;
+   letter-spacing: 3px;
+}
+
+
+
+
+/*
+ ************
+   Form
+************
+*/
+
+
+.main{
+   border-top: 2px solid #313131;
+   margin-left: 25px;
+   //margin-left: 150px;
+   
+   padding-top: 10px;
+   
+}
+
+
+/*
+ ************
+   Combo
+************
+*/
+.cc {
+    padding:3px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+    width: 160px;
+    height: 30px;
+    font-family: candara;
+    font-size: 15px;
+}
+
+.combo{
+    margin-left: 18px;
+    margin-top: 5px;
+}
+
+
+
+
+.grid_8{
+   //background: red;
+   padding-left: 50px;
+   padding-top:10px;
+   
+  
+}
+
+.grid_8 label{
+   font-family: candara;
+   font-size: 22px;
+  
+    
+   
+}
+
+input{
+    display: inline;
+    font-family: Candara;
+    font-size: 18px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    color: #313131;
+     border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-color: rgba(0,0,0.7,.6);
+    border-bottom-style:groove;
+    width: 175px;
+    position: relative;
+    
+}
+
+
+#suffix{
+   width: 100px;
+}
+
+#sAddress,#addressL2{
+   width:425px;
+}
+
+#city{
+   width:250px;
+}
+
+#sex,#sex1{
+   margin-left: 15px;
+   width:50px;
+   margin-bottom: 20px;
+}
+
+#ll1,#ll2,#ll3{
+   margin-left: 30px;
+   margin-right: 10px;
+   margin-bottom:20px;
+}
+
+select{
+   width:100px;
+   height: 22px;
+   margin-bottom:10px;
+}
+
+#mail{
+   width:310px;
+}
+
+#rbut,#cbut,#back{
+   margin-top: 50px;
+   width:150px;
+}
+
+#rbut:hover{
+   background: #359edf;
+   color: white;
+   border: 1px solid #717171;
+   
+}
+
+#cbut:hover{
+   background: #359edf;
+   color: white;
+   border: 1px solid #717171;
+}
+
+#back:hover{
+   background: #359edf;
+   color: white;
+   border: 1px solid #717171;
+}
+
+#go{
+    width: 35px;
+    padding-left: 5px;
+    margin-left: 5px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+
+#go:hover{
+   background: #359edf;
+   color: white;
+   
+}
+
+.patientId{
+    margin-left: 50px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#Sbut{
+    background: white;
+    border: 0px;
+    padding: 0px;
+    margin-left: -8px;
+    width;100px;
+}
+
+#Sbut:hover{
+    cursor: pointer;
+    color: #234524;
+    font-size: 2em;
+}

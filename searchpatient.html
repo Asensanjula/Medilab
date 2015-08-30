@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Search Patient Form</title>
+</head>
+         <link rel="stylesheet" href="css/searchpatient.css"/>
+        <link rel="stylesheet" href="css/reset.css"/>
+	<link rel="stylesheet" href="css/text.css"/>
+	<link rel="stylesheet" href="css/960_12_col.css"/>
+	<meta charset="utf-8"/>
+        
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"> </script>
+        <script type="text/javascript" src="js/searchP.js"></script>
+
+<body>
+    <div class="container_12">
+        
+             <header>
+            <h1>MediLAB</h1>
+            <div class="PR">
+                <h2>Search Patient</h2>
+            </div>
+        </header>
+              <div class="grid_10">
+                 
+                <form class="main">
+                                <label class="combo">
+                                                <select class="cc">
+                                                    <option value="1">Search by Patient Id</option>
+                                                    <option value="2">Search by Name</option>
+                                                    <option value="3">Search by etc</option>
+                                                </select>
+                                </label>
+                            <input id="go"  type="button" value="Go" >
+                    <div class="grid_8">
+                         <div class="patientId">
+                         
+                         <input type="text" name="pId" id="pId" placeholder=" patientID "/><input id="Sbut" type="button" value="Search">
+                         <br>
+                             
+                            </div>
+                            
+                        <div class="name">
+                         <label for="name">Name </label><br>
+                         <input type="text" name="first" id="first" placeholder=" First "/><input type="text" name="last" placeholder=" Last "/><input type="text" name="suffix" id="suffix" placeholder=" Suffix "/>
+                         <br>
+                            </div>
+                        <label for="address">Address </label><br>
+                            <input type="text" name="address" id="sAddress" placeholder=" Street Address "/>
+                            <input type="text" name="addressL2" id="addressL2" placeholder=" Address Line 2 "/>
+                            <input type="text" name="city" id="city" placeholder=" City "/>
+                            <br>
+                        <label for="gender">Gender </label><br>
+                            <label id="ls" for="sex"> <input name="sex" type="radio" value="male" id="sex">Male</label>
+                            <label for="sex1"><input name="sex" type="radio" value="female" id="sex1">Female</label><br>
+                            
+                            
+                        
+                                        <label for="email">Email </label><br>
+                                            <input type="text" name="email" id="mail" placeholder=" example@gmail.com "/><br>
+                                            
+                                        <label for="tel">Phone Number </label><br>
+                                            <input type="text" name="tel" id="tel" placeholder=" Mobile "/><br>
+                                            
+                                        
+                                
+                    </div>
+                    
+                 
+                   
+                </form>
+            
+            
+            
+           </div>
+       
+       
+        
+        
+        
+        
+    </div>
+           
+
+
+
+</body>
+</html>

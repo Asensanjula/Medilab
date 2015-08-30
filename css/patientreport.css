@@ -1,0 +1,12 @@
+/*
+*=
+********
+ main nav selected tab color change
+*******
+*/
+
+
+.main nav .selected{
+    color: white;
+}
+

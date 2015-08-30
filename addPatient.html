@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>AddPatient Form</title>
+   <link rel="stylesheet" href="css/addpatient.css"/>
+   
+	<link rel="stylesheet" href="css/reset.css"/>
+	<link rel="stylesheet" href="css/text.css"/>
+	<link rel="stylesheet" href="css/960_12_col.css"/>
+	<meta charset="utf-8"/>
+</head>
+
+<body>
+    <div class="container_12">
+        
+             <header>
+            <h1>MediLAB</h1>
+            <div class="PR">
+                <h2>Patient Registration</h2>
+            </div>
+        </header>
+           
+           <div class="grid_10">
+                <form class="main">
+                    <div class="grid_8">
+                         <label for="name">Name </label><br>
+                         <input type="text" name="first" id="first" placeholder=" First "/><input type="text" name="last" placeholder=" Last "/><input type="text" name="suffix" id="suffix" placeholder=" Suffix "/>
+                         <br>
+                        <label for="address">Address </label><br>
+                            <input type="text" name="address" id="sAddress" placeholder=" Street Address "/>
+                            <input type="text" name="addressL2" id="addressL2" placeholder=" Address Line 2 "/>
+                            <input type="text" name="city" id="city" placeholder=" City "/>
+                            <br>
+                        <label for="gender">Gender </label><br>
+                            <label id="ls" for="sex"> <input name="sex" type="radio" value="male" id="sex">Male</label>
+                            <label for="sex1"><input name="sex" type="radio" value="female" id="sex1">Female</label><br>
+                            
+                            
+                         <label for="dob">DOB </label><br>
+                                <label id="ll1" for="year"> Year</label>
+                                <select name="year" id="year" >
+                                    <?php
+                            
+                                        for($y=date("Y");$y>=1950;$y--){
+                                            ?>
+                                    <option value="<?php echo "$y";?>"><?php echo "$y";?></option>
+                                        </select>
+                                
+                                
+                                <label id="ll2" for="month">Month</label>
+                                            <select name="month" id="month">
+                                            <?php
+                                                for($m=1;$m<13;$m++){
+                                                        switch($m){
+                                                        case "1": $mm="January";break;
+                                                        case "2": $mm="February";break;
+                                                        case "3": $mm="March";break;
+                                                        case "4": $mm="April";break;
+                                                        case "5": $mm="May";break;
+                                                        case "6": $mm="June";break;
+                                                        case "7": $mm="July";break;
+                                                        case "8": $mm="Augest";break;
+                                                        case "9": $mm="September";break;
+                                                        case "10": $mm="Octomber";break;
+                                                        case "11": $mm="November";break;
+                                                        case "12": $mm="December";break;
+                                                        
+                                                        }
+                                                        ?>
+                                                                <option value="<?php echo "$m";?>"><?php echo "$mm";?></option>
+                                                                <?php
+                                                    }
+                                                    ?>
+                                                    
+                                                    
+                                                    </select>
+    
+                                                                <label id="ll3" for="day">Day</label>
+                                                                <select name="day" id="day" >
+                                                                <?php
+                                                                
+                                                                for($d=1;$d<32;$d++){
+                                                                            if($d<10){
+                                                                                    $dd="0".$d;	
+                                                                            }
+                                                                            else
+                                                                                    $dd=$d;
+                                                                            ?>
+                                                                    <option value="<?php echo "$dd";?>"><?php echo "$dd";?></option>
+                                                                            <?php
+                                                                }
+                                                                ?>
+                                                                </select><br>
+                                                                
+                                        <label for="email">Email </label><br>
+                                            <input type="text" name="email" id="mail" placeholder=" example@gmail.com "/><br>
+                                            
+                                        <label for="tel">Phone Number </label><br>
+                                            <input type="text" name="tel" id="tel" placeholder=" Mobile "/><br>
+                                            
+                                        <label for="username">User Name </label><br>
+                                            <input type="text" name="username" id="username" placeholder=" userName "/><br>
+                                            
+                                         <label for="password">Password</label><br>
+                                            <input type="text" name="password" id="password" placeholder=" password "/><br>
+                                            
+                                               <input id="rbut" type="submit" value="Register" onclick="return trueVal();">
+                                                <input id="cbut"type="reset" value="Clear" >
+                                                     <input id="back"type="button" value="Back" onClick="location.href='labassistant.html'" >
+                                
+                    </div>
+                    
+                 
+                   
+                </form>
+            
+            
+            
+           </div>
+       
+       
+        
+        
+        
+        
+    </div>
+
+
+
+</body>
+</html>

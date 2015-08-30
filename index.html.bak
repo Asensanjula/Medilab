@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>MediLab</title>
+    <link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/reset.css"/>
+	<link rel="stylesheet" href="css/text.css"/>
+	<link rel="stylesheet" href="css/960_12_col.css"/>
+	<meta charset="utf-8"/>
+	
+	
+	
+	</head>
+
+<body>
+    <div class="container_12">
+		<header>
+			<h1>MediLAB</h1>
+			<nav>
+				<ul>
+					<li><a href="#" class="selected">Home</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+			
+    </div><!--end of 1st container-->
+    
+    
+		<div class="slide">
+			<p>
+	
+	fuck</p>
+		</div>
+    
+	<div class="container_12">	
+		</header>
+		<div class="main">
+			<div class="grid_6">
+				<h1>First</h1>
+				<p>Health Diagnostic Laboratory, Inc. (HDL, Inc.)
+				offers the most comprehensive
+				test menu of biomarkers for cardiovascular, diabetes,
+				and related diseases providing a basis for early
+				detection, effective treatment,
+				and disease reversal.</p>
+				
+				<p><a href="#" class="button">Read More</a></p>
+			</div>
+			<div class="grid_6">
+				<h1>Second</h1>
+				<p>Patients who look healthy may have hidden risks.
+				Over 50% of patients who suffer a heart attack or
+				stroke have "normal" LDL cholesterol levels.1,2 Get
+				the facts on the costs of chronic disease and
+				effectiveness of HDL, Inc. testing.</p>
+				
+				<p><a href="#" class="button">Read More</a></p>
+			</div>
+		</div>
+		<footer>
+			<p><strong>MediLab</strong> for better service</p>
+		</footer>
+	</div> <!--end of 2nd container-->    
+    
+
+
+</body>
+</html>

@@ -1,0 +1,197 @@
+
+/*
+ **********
+ *=header
+ **********
+*/
+
+/*body{
+	background: green;
+}*/
+
+header h1{
+	background: url(../img/logo.jpg) no-repeat;
+	width:300px;
+	height: 100px;
+	margin: 10px 10px 22px;
+	
+	
+	
+	float: left;
+	text-indent: -9999px;
+}
+
+header{
+	overflow: hidden;
+}
+/*
+ **********
+ =login form
+ **********
+*/
+
+.login{
+    width: 400px;
+    height: 150px;
+    background:url(../img/signbac.jpg);
+    font-family: Candara;
+    color: rgba(0,0,0,.6);
+    opacity: 0.9;
+    float:right;
+    
+    
+}
+
+.login h2{
+	color:#313131;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+form input{
+    display: inline;
+    font-family: Candara;
+    font-size: 18px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    padding-right: 10px;
+    color: #313131;
+     border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-color: rgba(0,0,0.7,.6);
+     border-bottom-style: groove;
+    
+}
+form #text,#pass{
+    padding-right: 0px;
+    
+    
+}
+
+form #but1{
+    padding-top:3px;
+    padding-bottom: 3px;
+    padding-left: 2px;
+    margin-left: 2px;
+    
+}
+#but1:hover{
+	background: #359edf;
+	color: white;
+}
+    
+
+
+
+/*
+ **********
+ =nav
+ **********
+*/
+
+nav{
+	clear: both;
+	float:left;
+	margin-top:20px;
+	
+	
+	
+	
+}
+
+.c1,.c2,.c3,.c4,.c5{
+    display: inline;
+    font-size: 22px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-family:Candara;
+    
+    
+    
+}
+
+
+nav a{
+    color: #313131;
+    text-decoration: none;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+nav a:hover,.selected{
+    color: white;
+    background: #359edf;
+    transition: 0.5s;
+}
+
+
+
+
+
+/*
+ **********
+ *=main
+ **********
+*/
+
+.main{
+	margin-top: 20px;
+	font-family: candara;
+	font-size: 17px;
+	line-height: 20px;
+	text-align: justify;
+}
+.main h2{
+	
+	font-size: 28px;
+	
+}
+
+#ass{
+	font-family: 'PT Sans',sans-serif;
+	font-size: 25px;
+	color: black;
+	
+}
+
+.button{
+	background: #242324;
+	padding:6px;
+	color: #e24ee4;
+	text-decoration: none;
+}
+p{
+	font-size: 13px;
+	line-height: 24px;
+	color:#353535;
+}
+.button:hover{
+	color: white;
+}
+
+/*
+ **********
+ *=footer
+ **********
+*/
+
+footer{
+	clear: both;
+}
+
+.line1,.line2{
+	font-family: candara;
+	font-size: 15px;
+	color: #313131;
+}
+.line1{
+	border-top: 2px solid #313131;
+}
+
+

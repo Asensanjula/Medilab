@@ -1,0 +1,29 @@
+/*
+*=
+********
+ text animation
+*******
+*/
+
+.A{
+  //background: red;
+   width: 400px;
+   text-align: center;
+    margin-left: 120px;
+    margin-top: 120px;
+    font-family: candara;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: #1E90FF
+   
+}
+.grid_8{
+   text-align: justify;
+   
+   
+}
+
+
+
+
+
